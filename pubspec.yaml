@@ -1,7 +1,7 @@
 name: icached_network_image
 description: "An advanced cached network image with handling"
 version: 0.0.1
-homepage:
+homepage: https://github.com/MicroProgramer/icached_network_image
 
 environment:
   sdk: '>=3.3.3 <4.0.0'
