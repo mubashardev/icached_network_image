@@ -1,11 +1,11 @@
 
-**icached_network_image**
+# icached_network_image
 
 **A Flutter widget for displaying network images with efficient caching.**
 
 This package provides a convenient way to display network images in your Flutter applications while taking advantage of caching to improve performance and reduce data usage.
 
-**Installation**
+## Installation
 
 1. Add the following dependency to your `pubspec.yaml` file:
 
@@ -16,7 +16,7 @@ This package provides a convenient way to display network images in your Flutter
 
 2. Run `flutter pub get` to install the package.
 
-**Usage**
+## Usage
 
 Import the package in your Dart code:
 
@@ -36,7 +36,7 @@ ICachedNetworkImage(
 ),
 ```
 
-**Features**
+## Features
 
 - Caches downloaded images for faster loading in subsequent uses.
 - Provides a placeholder image to display while the network image is loading.
@@ -45,7 +45,7 @@ ICachedNetworkImage(
 - Offers flexibility in specifying image dimensions (height, width) and fit within the container.
 - Handles checking and updating cached images to ensure they stay fresh.
 
-**Optional Parameters**
+### Optional Parameters
 
 - `height`: Controls the height of the image container (defaults to 50).
 - `width`: Controls the width of the image container (defaults to 50).
@@ -57,18 +57,10 @@ ICachedNetworkImage(
 - `filePlaceholderPath`: The local file path of an alternative placeholder image (optional).
 - `border`: The border of the image container (optional). Use a `BoxBorder` object to define the border style and color.
 
-**Contributing**
+### Contributing
 
 We welcome contributions to this package! Feel free to fork the repository on GitHub ([https://github.com/MicroProgramer/icached_network_image](https://github.com/MicroProgramer/icached_network_image)), create pull requests for bug fixes or new features, and raise issues for any problems you encounter.
 
-**License**
+## License
 
-This package is licensed under the MIT License ([https://opensource.org/license/mit](https://opensource.org/license/mit)).
-
-**Additional Notes**
-
-- Consider including an example in the README that showcases a more complex usage scenario, demonstrating how to combine different options like custom shapes, file-based placeholders, and borders.
-- If you plan to distribute a placeholder image with the package, ensure appropriate licensing is in place.
-- You might want to add support for error handling to display a different widget or text if the image fails to load.
-
-This enhanced README provides a comprehensive overview of your `icached_network_image` package, making it easy for developers to understand and integrate it into their Flutter projects.
+This package is licensed under the [MIT License](https://opensource.org/license/mit).
