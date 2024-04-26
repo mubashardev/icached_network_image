@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:icached_network_image/ichached_network_image.dart';
+import 'package:icached_network_image/icached_network_image.dart';
 
 void main() {
   runApp(const MyApp());

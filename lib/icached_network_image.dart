@@ -1,4 +1,4 @@
-library ichached_network_image;
+library icached_network_image;
 
 import 'dart:io';
 import 'package:flutter/cupertino.dart';
